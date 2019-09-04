@@ -50,3 +50,81 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2019-09-03 18:37:42.978
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:12.196
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:12.197
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6662af0a[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:12.226
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:12.395
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2019-09-03 18:53:14.358
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-03 18:53:14.358
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64cd555c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76b50310,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.203
+!MESSAGE Boot LS startup time from start to initialized: 4906ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.252
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CHiwFwisisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.253
+!MESSAGE subscribing to classpath changes: sts4.classpath.CHiwFwis isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.256
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.258
+!MESSAGE subsribers = {sts4.classpath.CHiwFwis=Send Classpath Notifications(223)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.259
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.261
+!MESSAGE project PersonalProjectManagementTool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.262
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.262
+!MESSAGE Preparing classpath changed notification PersonalProjectManagementTool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.263
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CHiwFwis => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.263
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.275
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.280
+!MESSAGE buffering callback sts4.classpath.CHiwFwis PersonalProjectManagementTool false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.328
+!MESSAGE executing callback sts4.classpath.CHiwFwis 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-03 18:53:17.368
+!MESSAGE executing callback sts4.classpath.CHiwFwis SUCCESS [done]
