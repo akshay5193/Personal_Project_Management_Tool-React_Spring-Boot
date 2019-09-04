@@ -1,1 +1,45 @@
 2019-09-03 18:33:43,597 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-03 18:36:47,231 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.akshay.ppmt:PersonalProjectManagement:0.0.1-SNAPSHOT @ D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagement\pom.xml.
+2019-09-03 18:36:49,700 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagement/src/main/java
+2019-09-03 18:36:49,701 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagement/src/main/resources
+2019-09-03 18:36:49,707 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagement/src/main/resources
+2019-09-03 18:36:49,722 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagement/src/test/java
+2019-09-03 18:36:50,318 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2019-09-03 18:36:50,320 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-03 18:36:51,003 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.akshay.ppmt:PersonalProjectManagement:0.0.1-SNAPSHOT @ D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagement\pom.xml.
+2019-09-03 18:36:52,120 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagement/src/main/java
+2019-09-03 18:36:52,121 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagement/src/main/resources
+2019-09-03 18:36:52,125 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagement/src/main/resources
+2019-09-03 18:36:52,133 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagement/src/test/java
+2019-09-03 18:36:52,588 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-09-03 18:36:53,930 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-03 18:36:53,937 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-03 18:36:53,949 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-03 18:36:53,952 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-03 18:36:53,952 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagement\src\test\resources
+2019-09-03 18:40:51,990 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.akshay.ppmtool:PersonalProjectManagementTool:0.0.1-SNAPSHOT @ D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagementTool\pom.xml.
+2019-09-03 18:40:52,976 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+2019-09-03 18:40:52,993 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.pom
+2019-09-03 18:40:53,142 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+2019-09-03 18:40:53,381 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar
+2019-09-03 18:40:54,408 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagementTool/src/main/java
+2019-09-03 18:40:54,408 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagementTool/src/main/resources
+2019-09-03 18:40:54,415 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagementTool/src/main/resources
+2019-09-03 18:40:54,424 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagementTool/src/test/java
+2019-09-03 18:40:54,785 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2019-09-03 18:40:54,786 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-03 18:40:55,374 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.akshay.ppmtool:PersonalProjectManagementTool:0.0.1-SNAPSHOT @ D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagementTool\pom.xml.
+2019-09-03 18:40:55,933 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
+2019-09-03 18:40:56,164 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199-sources.jar
+2019-09-03 18:40:56,261 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:1.4.199
+2019-09-03 18:40:56,886 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:1.4.199
+2019-09-03 18:40:56,919 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagementTool/src/main/java
+2019-09-03 18:40:56,919 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagementTool/src/main/resources
+2019-09-03 18:40:56,921 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PersonalProjectManagementTool/src/main/resources
+2019-09-03 18:40:56,927 [Worker-15: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PersonalProjectManagementTool/src/test/java
+2019-09-03 18:40:57,287 [Worker-15: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-09-03 18:40:57,821 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-03 18:40:57,822 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-03 18:40:57,838 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-03 18:40:57,841 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-03 18:40:57,841 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Coding Dojo\java_stack\Personal Project Management Tool\PersonalProjectManagementTool\src\test\resources
