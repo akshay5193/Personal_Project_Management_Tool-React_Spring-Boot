@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\Coding Dojo\java_stack\Personal Project Management Tool\.metadata\.plugins\org.eclipse.jdt.core
