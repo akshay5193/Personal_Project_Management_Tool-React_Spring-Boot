@@ -17,8 +17,6 @@ public class ProjectService {
 	public Project saveOrUpdateProject (Project project) {
 		
 		// Logic, especially for update operations
-		
-		
 		try {
 			project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
 			return projectRepository.save(project);

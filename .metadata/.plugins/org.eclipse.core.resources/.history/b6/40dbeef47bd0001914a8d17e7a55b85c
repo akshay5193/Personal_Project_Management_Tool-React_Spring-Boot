@@ -17,8 +17,6 @@ public class ProjectService {
 	public Project saveOrUpdateProject (Project project) {
 		
 		// Logic, especially for update operations
-		
-		
 		try {
 			project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
 			return projectRepository.save(project);
@@ -26,6 +24,8 @@ public class ProjectService {
 		catch (Exception e){
 			throw new ProjectIdException ("Project ID: '" + project.getProjectIdentifier().toUpperCase() + "' already exist.");
 		}
+		
+		return projectRepository.save(project);
 	}
 	
 }
