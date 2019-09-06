@@ -44,7 +44,6 @@ public class ProjectService {
 		// the basic way to extract the list is usually to traverse through it
 		// But in this case with iterable, it actually out of the box returns 
 		// the JSON objects that has JSON elements or objects within that list
-		
 		return projectRepository.findAll();
 	}
 }
