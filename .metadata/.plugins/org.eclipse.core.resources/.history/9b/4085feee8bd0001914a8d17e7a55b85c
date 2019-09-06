@@ -11,6 +11,5 @@ import com.akshay.ppmtool.domains.Project;
 public interface ProjectRepository extends CrudRepository <Project, Long> {
 	
 	List<Project> findAll();
-	Project findByProjectIdentifier(String projectId);
 
 }
