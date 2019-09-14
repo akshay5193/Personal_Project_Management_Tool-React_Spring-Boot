@@ -503,3 +503,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 06:54:36.349
 !MESSAGE executing callback sts4.classpath.duJxSrrB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 12:07:05.290
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.duJxSrrB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 12:07:05.291
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.duJxSrrB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 12:07:05.292
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 12:07:05.293
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.duJxSrrB => OK
