@@ -1,5 +1,0 @@
-package com.akshay.ppmtool.exceptions;
-
-public class ProjectIdException {
-
-}

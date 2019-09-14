@@ -1,5 +1,0 @@
-package com.akshay.ppmtool.repositories;
-
-public interface ProjectRepository {
-
-}
