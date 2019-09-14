@@ -1,8 +1,0 @@
-package com.akshay.ppmtool.domains;
-
-import javax.persistence.Entity;
-
-@Entity
-public class Project {
-
-}
