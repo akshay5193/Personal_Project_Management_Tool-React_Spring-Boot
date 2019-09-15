@@ -765,3 +765,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2019-09-15 11:08:37.925
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-09-15 11:59:30.522
+!MESSAGE No repository found at file:/D:/Coding%20Dojo/2.%20java_stack/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/201/data/listener_1925729951/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-09-15 11:59:30.928
+!MESSAGE No repository found at file:/D:/Coding%20Dojo/2.%20java_stack/sts-4.3.1.RELEASE/.eclipseextension.
