@@ -21,7 +21,7 @@ import com.akshay.ppmtool.services.MapValidationErrorService;
 import com.akshay.ppmtool.services.ProjectService;
 
 @RestController
-@RequestMapping ("/api/project")
+@RequestMapping("/api/project")
 @CrossOrigin
 public class ProjectController {
 	
@@ -31,19 +31,19 @@ public class ProjectController {
 	@Autowired
 	private MapValidationErrorService mapValidationErrorService;
 	
-	@PostMapping ("")
+	@PostMapping("")
 	public ResponseEntity <?> createNewProject(@Valid @RequestBody Project project, BindingResult result) {
-		
+		System.out.println("hit this route post...");
 		ResponseEntity <?> errorMap = mapValidationErrorService.MapValidationService(result);
-		if (errorMap != null) return errorMap; 
-		
+		if (errorMap != null) return errorMap;
 		Project project1 = projectService.saveOrUpdateProject(project);
-		return new ResponseEntity <Project> (project, HttpStatus.CREATED);
+		return new ResponseEntity <Project> (project1, HttpStatus.CREATED);
 	}
 	
 	
 	@GetMapping ("/{projectId}")
 	public ResponseEntity <Project> getProjectById(@PathVariable String projectId) {
+		System.out.println("hit this route...");
 		Project project = projectService.findProjectByIdentifier(projectId.toUpperCase());
 		return new ResponseEntity<Project>(project, HttpStatus.OK);
 	}
